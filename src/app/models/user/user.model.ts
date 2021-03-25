@@ -1,11 +1,11 @@
 import { IUser } from "./iuser.interface";
 
 export class User implements IUser {
-  username: string;
+  email: string;
   password: string;
 
   constructor(username: string, password: string) {
-    this.username = username;
+    this.email = username;
     this.password = password;
   }
 
